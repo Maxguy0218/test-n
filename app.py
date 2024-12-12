@@ -1,62 +1,63 @@
 import pandas as pd
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
-from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import KNeighborsClassifier
 import streamlit as st
 
 # Load the dataset
-df = pd.read_csv("resume_dataset.csv")
+def load_data():
+    return pd.read_csv("resume_dataset.csv")
 
-# Step 1: Cluster the data
-def cluster_data(df):
-    features = df.drop(columns=["Name"])
-    scaler = StandardScaler()
-    scaled_features = scaler.fit_transform(features)
+def preprocess_and_cluster(data):
+    # Preprocessing and feature extraction
+    tfidf = TfidfVectorizer(stop_words='english', max_features=500)
+    X = tfidf.fit_transform(data['Description'])
 
+    # KMeans clustering
     kmeans = KMeans(n_clusters=4, random_state=42)
-    df['Cluster'] = kmeans.fit_predict(scaled_features)
+    clusters = kmeans.fit_predict(X)
 
-    cluster_names = {0: "Payroll", 1: "Absences", 2: "Compensation", 3: "Core HR"}
-    df['Module'] = df['Cluster'].map(cluster_names)
+    # Assigning cluster labels to data
+    data['Cluster'] = clusters
 
-    df.to_csv("clustered_resume_dataset.csv", index=False)
-    return kmeans, scaler, cluster_names
+    return data, kmeans, tfidf
 
-# Step 2: Create the Streamlit app
-def main():
-    st.title("Resume Module Classification")
+def train_knn(data, tfidf):
+    X = tfidf.transform(data['Description'])
+    y = data['Cluster']
 
-    kmeans, scaler, cluster_names = cluster_data(df)
+    # Train a KNN classifier
+    knn = KNeighborsClassifier(n_neighbors=3)
+    knn.fit(X, y)
+    return knn
 
-    name = st.text_input("Name")
-    years_of_experience = st.number_input("Years of Experience", min_value=0, max_value=50, step=1)
-    skills = st.text_input("Skills")
-    education = st.text_input("Education")
-    previous_job_titles = st.text_input("Previous Job Titles")
-    certifications = st.text_input("Certifications")
-    project_management_experience = st.checkbox("Project Management Experience")
-    hr_experience = st.checkbox("HR Experience")
-    payroll_experience = st.checkbox("Payroll Experience")
-    compensation_experience = st.checkbox("Compensation Experience")
-    absences_management_experience = st.checkbox("Absences Management Experience")
+def classify_record(knn, tfidf, input_text):
+    input_features = tfidf.transform([input_text])
+    prediction = knn.predict(input_features)[0]
+    return prediction
 
-    input_data = pd.DataFrame({
-        "Years of Experience": [years_of_experience],
-        "Skills": [skills],
-        "Education": [education],
-        "Previous Job Titles": [previous_job_titles],
-        "Certifications": [certifications],
-        "Project Management Experience": [project_management_experience],
-        "HR Experience": [hr_experience],
-        "Payroll Experience": [payroll_experience],
-        "Compensation Experience": [compensation_experience],
-        "Absences Management Experience": [absences_management_experience]
-    })
+# Streamlit App
+st.title("Resume Module Classification App")
 
-    scaled_input_data = scaler.transform(input_data)
-    cluster = kmeans.predict(scaled_input_data)[0]
-    module = cluster_names[cluster]
+st.write("Dataset loaded successfully.")
+data = load_data()
 
-    st.write(f"The resume belongs to the '{module}' module.")
+st.write("### Preview of Dataset")
+st.dataframe(data.head())
 
-if __name__ == "__main__":
-    main()
+data, kmeans, tfidf = preprocess_and_cluster(data)
+knn = train_knn(data, tfidf)
+
+st.write("### Clustering Complete")
+st.write(data[['Description', 'Cluster']].head())
+
+st.write("### Enter Resume Description")
+input_text = st.text_area("Paste the description here:")
+
+if st.button("Classify Module"):
+    if input_text.strip():
+        prediction = classify_record(knn, tfidf, input_text)
+        cluster_names = {0: "Payroll", 1: "Absences", 2: "Compensation", 3: "Core HR"}
+        st.write(f"The record belongs to the module: **{cluster_names[prediction]}**")
+    else:
+        st.write("Please enter a valid description.")
