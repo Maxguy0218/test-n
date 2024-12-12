@@ -6,9 +6,16 @@ import streamlit as st
 
 # Load the dataset
 def load_data():
-    return pd.read_csv("resume_dataset.csv")
+    data = pd.read_csv("/mnt/data/resume_dataset.csv")
+    st.write("Columns in the dataset:", list(data.columns))  # Display column names
+    return data
 
 def preprocess_and_cluster(data):
+    # Ensure the correct column is used for descriptions
+    if 'Description' not in data.columns:
+        st.error("The dataset does not contain a 'Description' column. Please check your dataset.")
+        st.stop()
+
     # Preprocessing and feature extraction
     tfidf = TfidfVectorizer(stop_words='english', max_features=500)
     X = tfidf.fit_transform(data['Description'])
