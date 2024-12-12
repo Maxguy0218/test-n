@@ -1,0 +1,101 @@
+Name,Years of Experience,Skills,Education,Previous Job Titles,Certifications,Project Management Experience,HR Experience,Payroll Experience,Compensation Experience,Absences Management Experience
+Jane Smith,8,"Java, Spring, Hibernate",Bachelors in Business Administration,Embedded Systems Engineer,SHRM Certified Professional,True,False,True,False,False
+Jane Smith,11,"Python, SQL, Machine Learning",MBA in HR,Web Developer,SHRM Certified Professional,True,False,True,True,False
+Jane Smith,16,"Python, SQL, Machine Learning",Bachelors in Computer Science,HR Manager,Certified Scrum Master,True,False,False,True,True
+Alice Johnson,20,"Java, Spring, Hibernate",Bachelors in Electronics,Software Engineer,AWS Certified Solutions Architect,False,False,False,True,False
+Bob Brown,6,"HR Management, Payroll",Bachelors in Computer Science,Embedded Systems Engineer,SHRM Certified Professional,False,True,True,False,True
+Charlie Davis,8,"Java, Spring, Hibernate",Bachelors in Electronics,HR Manager,Cisco Certified Network Associate,True,False,False,True,True
+John Doe,2,"JavaScript, React, Node.js",Masters in Information Technology,Web Developer,Certified Scrum Master,False,False,False,True,False
+Alice Johnson,14,"C++, Embedded Systems",Bachelors in Computer Science,Web Developer,AWS Certified Solutions Architect,True,True,True,False,False
+Charlie Davis,16,"Python, SQL, Machine Learning",Masters in Information Technology,HR Manager,Cisco Certified Network Associate,False,False,True,False,False
+Jane Smith,14,"HR Management, Payroll",Bachelors in Computer Science,Web Developer,Cisco Certified Network Associate,True,True,True,True,True
+Charlie Davis,13,"Python, SQL, Machine Learning",Bachelors in Computer Science,Data Scientist,Certified Scrum Master,False,True,True,False,False
+Bob Brown,4,"HR Management, Payroll",Bachelors in Business Administration,Software Engineer,Cisco Certified Network Associate,True,True,False,False,False
+Charlie Davis,6,"Python, SQL, Machine Learning",Bachelors in Electronics,Software Engineer,AWS Certified Solutions Architect,False,True,False,True,False
+Jane Smith,1,"JavaScript, React, Node.js",Bachelors in Computer Science,Web Developer,AWS Certified Solutions Architect,True,True,True,True,False
+Jane Smith,15,"Python, SQL, Machine Learning",Bachelors in Computer Science,Embedded Systems Engineer,AWS Certified Solutions Architect,False,False,True,True,False
+Jane Smith,19,"JavaScript, React, Node.js",Bachelors in Electronics,Web Developer,Google Data Engineer,False,False,True,False,False
+John Doe,14,"HR Management, Payroll",MBA in HR,Software Engineer,AWS Certified Solutions Architect,False,True,False,True,False
+Alice Johnson,19,"Java, Spring, Hibernate",Bachelors in Business Administration,Data Scientist,Cisco Certified Network Associate,True,True,False,True,False
+Jane Smith,19,"Python, SQL, Machine Learning",Bachelors in Business Administration,Data Scientist,Cisco Certified Network Associate,False,False,True,True,False
+Charlie Davis,17,"Java, Spring, Hibernate",Bachelors in Computer Science,Web Developer,AWS Certified Solutions Architect,True,False,False,False,False
+John Doe,18,"Python, SQL, Machine Learning",Bachelors in Computer Science,Web Developer,Google Data Engineer,False,True,False,False,False
+Charlie Davis,7,"JavaScript, React, Node.js",Bachelors in Computer Science,Embedded Systems Engineer,Google Data Engineer,False,False,True,False,True
+John Doe,11,"Java, Spring, Hibernate",Bachelors in Business Administration,Data Scientist,SHRM Certified Professional,False,True,False,True,True
+Alice Johnson,3,"Python, SQL, Machine Learning",MBA in HR,Web Developer,Certified Scrum Master,False,True,False,False,True
+Bob Brown,16,"Java, Spring, Hibernate",MBA in HR,Data Scientist,AWS Certified Solutions Architect,False,False,False,False,False
+Bob Brown,5,"Python, SQL, Machine Learning",Bachelors in Computer Science,Software Engineer,Certified Scrum Master,True,True,False,False,True
+Jane Smith,15,"C++, Embedded Systems",Bachelors in Business Administration,HR Manager,Certified Scrum Master,True,True,True,False,True
+Charlie Davis,6,"Java, Spring, Hibernate",Bachelors in Business Administration,Software Engineer,Google Data Engineer,False,True,True,False,True
+Bob Brown,19,"HR Management, Payroll",Masters in Information Technology,Embedded Systems Engineer,Certified Scrum Master,True,True,True,True,False
+Alice Johnson,4,"HR Management, Payroll",Masters in Information Technology,Software Engineer,Certified Scrum Master,True,True,True,False,False
+Charlie Davis,2,"JavaScript, React, Node.js",Bachelors in Business Administration,Data Scientist,Cisco Certified Network Associate,True,True,True,True,False
+Alice Johnson,6,"C++, Embedded Systems",Bachelors in Electronics,HR Manager,Certified Scrum Master,True,True,True,False,False
+Jane Smith,10,"Java, Spring, Hibernate",Masters in Information Technology,HR Manager,SHRM Certified Professional,False,True,True,False,True
+Jane Smith,6,"C++, Embedded Systems",Bachelors in Electronics,Embedded Systems Engineer,Certified Scrum Master,False,False,False,True,False
+Alice Johnson,11,"C++, Embedded Systems",Bachelors in Computer Science,Embedded Systems Engineer,SHRM Certified Professional,True,False,False,True,True
+Bob Brown,15,"Python, SQL, Machine Learning",Bachelors in Business Administration,Embedded Systems Engineer,Cisco Certified Network Associate,True,True,True,True,True
+Alice Johnson,3,"JavaScript, React, Node.js",Bachelors in Electronics,Software Engineer,AWS Certified Solutions Architect,False,False,True,False,True
+Alice Johnson,4,"C++, Embedded Systems",Masters in Information Technology,Data Scientist,SHRM Certified Professional,False,True,True,False,True
+Bob Brown,4,"C++, Embedded Systems",Bachelors in Business Administration,Web Developer,AWS Certified Solutions Architect,False,True,True,False,True
+Jane Smith,16,"C++, Embedded Systems",Bachelors in Electronics,HR Manager,AWS Certified Solutions Architect,True,False,True,False,True
+Bob Brown,6,"C++, Embedded Systems",MBA in HR,Embedded Systems Engineer,SHRM Certified Professional,True,True,False,True,False
+John Doe,13,"Python, SQL, Machine Learning",Bachelors in Computer Science,Embedded Systems Engineer,Google Data Engineer,True,False,False,False,True
+John Doe,7,"JavaScript, React, Node.js",MBA in HR,Web Developer,AWS Certified Solutions Architect,False,True,False,False,True
+John Doe,5,"Java, Spring, Hibernate",Bachelors in Business Administration,Web Developer,SHRM Certified Professional,False,False,False,True,False
+Alice Johnson,20,"Python, SQL, Machine Learning",Bachelors in Computer Science,Data Scientist,AWS Certified Solutions Architect,True,True,False,False,False
+Charlie Davis,6,"Python, SQL, Machine Learning",Masters in Information Technology,Data Scientist,Certified Scrum Master,True,True,False,True,True
+Bob Brown,12,"JavaScript, React, Node.js",Bachelors in Business Administration,Embedded Systems Engineer,Certified Scrum Master,True,False,True,True,False
+Charlie Davis,11,"HR Management, Payroll",Masters in Information Technology,Software Engineer,Cisco Certified Network Associate,False,True,True,False,False
+Charlie Davis,17,"Python, SQL, Machine Learning",Bachelors in Computer Science,HR Manager,SHRM Certified Professional,False,True,True,False,False
+Charlie Davis,13,"JavaScript, React, Node.js",Bachelors in Electronics,Web Developer,Google Data Engineer,True,True,True,True,False
+Alice Johnson,6,"C++, Embedded Systems",Bachelors in Computer Science,Web Developer,Certified Scrum Master,False,True,False,False,True
+Jane Smith,8,"Java, Spring, Hibernate",Masters in Information Technology,HR Manager,SHRM Certified Professional,False,True,True,False,False
+Alice Johnson,7,"JavaScript, React, Node.js",MBA in HR,Software Engineer,SHRM Certified Professional,False,True,True,True,False
+Alice Johnson,6,"Python, SQL, Machine Learning",MBA in HR,Software Engineer,Certified Scrum Master,False,False,True,False,True
+Bob Brown,3,"HR Management, Payroll",Bachelors in Electronics,Data Scientist,Google Data Engineer,False,True,True,False,True
+John Doe,13,"C++, Embedded Systems",Masters in Information Technology,Web Developer,AWS Certified Solutions Architect,True,True,True,True,True
+Alice Johnson,11,"HR Management, Payroll",Bachelors in Computer Science,Web Developer,Google Data Engineer,True,False,False,True,True
+Jane Smith,16,"HR Management, Payroll",MBA in HR,HR Manager,SHRM Certified Professional,False,True,False,False,True
+John Doe,6,"JavaScript, React, Node.js",Bachelors in Computer Science,Software Engineer,AWS Certified Solutions Architect,True,False,True,True,True
+Alice Johnson,2,"Java, Spring, Hibernate",Bachelors in Electronics,Embedded Systems Engineer,SHRM Certified Professional,True,True,True,False,False
+Alice Johnson,7,"HR Management, Payroll",Masters in Information Technology,HR Manager,Certified Scrum Master,False,True,True,True,True
+Bob Brown,12,"HR Management, Payroll",MBA in HR,Software Engineer,Cisco Certified Network Associate,False,False,False,True,True
+Alice Johnson,15,"JavaScript, React, Node.js",Masters in Information Technology,Web Developer,SHRM Certified Professional,True,True,True,True,True
+Alice Johnson,15,"Python, SQL, Machine Learning",Bachelors in Computer Science,Web Developer,Certified Scrum Master,True,True,True,False,True
+Bob Brown,4,"C++, Embedded Systems",Masters in Information Technology,Software Engineer,Cisco Certified Network Associate,False,False,False,False,False
+John Doe,16,"JavaScript, React, Node.js",Masters in Information Technology,Software Engineer,AWS Certified Solutions Architect,False,True,True,False,False
+Bob Brown,5,"Python, SQL, Machine Learning",Bachelors in Business Administration,Web Developer,Google Data Engineer,True,True,True,True,False
+Bob Brown,13,"HR Management, Payroll",Bachelors in Electronics,Web Developer,Google Data Engineer,False,False,False,True,False
+John Doe,15,"Java, Spring, Hibernate",Masters in Information Technology,Software Engineer,Google Data Engineer,False,True,False,True,False
+Bob Brown,3,"C++, Embedded Systems",MBA in HR,HR Manager,Cisco Certified Network Associate,False,True,True,False,False
+Alice Johnson,17,"Java, Spring, Hibernate",Masters in Information Technology,Software Engineer,SHRM Certified Professional,True,True,False,True,False
+Jane Smith,16,"JavaScript, React, Node.js",Bachelors in Business Administration,Software Engineer,Certified Scrum Master,False,True,True,False,True
+Jane Smith,8,"C++, Embedded Systems",Masters in Information Technology,HR Manager,Cisco Certified Network Associate,False,True,False,True,False
+Alice Johnson,2,"JavaScript, React, Node.js",Bachelors in Computer Science,HR Manager,Certified Scrum Master,False,True,True,False,True
+Charlie Davis,7,"Python, SQL, Machine Learning",Bachelors in Business Administration,Software Engineer,AWS Certified Solutions Architect,False,False,False,False,False
+Alice Johnson,3,"Java, Spring, Hibernate",Bachelors in Electronics,Software Engineer,Google Data Engineer,True,True,False,False,False
+Charlie Davis,12,"JavaScript, React, Node.js",Masters in Information Technology,Data Scientist,Google Data Engineer,False,False,False,False,True
+Charlie Davis,18,"HR Management, Payroll",Bachelors in Business Administration,Software Engineer,Cisco Certified Network Associate,False,True,True,True,True
+Alice Johnson,2,"JavaScript, React, Node.js",Bachelors in Electronics,Software Engineer,AWS Certified Solutions Architect,False,True,False,False,True
+Alice Johnson,8,"C++, Embedded Systems",Bachelors in Electronics,Embedded Systems Engineer,Google Data Engineer,False,False,True,True,False
+Alice Johnson,5,"Python, SQL, Machine Learning",MBA in HR,Software Engineer,Certified Scrum Master,True,True,True,False,True
+Jane Smith,3,"JavaScript, React, Node.js",Bachelors in Business Administration,HR Manager,Google Data Engineer,False,True,True,True,True
+Jane Smith,4,"Java, Spring, Hibernate",Masters in Information Technology,Web Developer,SHRM Certified Professional,False,False,True,True,False
+Jane Smith,13,"Python, SQL, Machine Learning",Bachelors in Electronics,HR Manager,Cisco Certified Network Associate,True,True,False,False,False
+Jane Smith,19,"HR Management, Payroll",Bachelors in Electronics,HR Manager,Google Data Engineer,True,True,True,False,True
+Jane Smith,8,"C++, Embedded Systems",Bachelors in Electronics,Embedded Systems Engineer,Google Data Engineer,False,True,False,True,False
+Bob Brown,4,"Python, SQL, Machine Learning",Bachelors in Computer Science,Web Developer,SHRM Certified Professional,True,True,False,False,True
+Bob Brown,9,"C++, Embedded Systems",Masters in Information Technology,Software Engineer,SHRM Certified Professional,False,False,True,True,False
+John Doe,19,"JavaScript, React, Node.js",Bachelors in Business Administration,Software Engineer,SHRM Certified Professional,False,False,False,False,True
+Jane Smith,8,"HR Management, Payroll",Bachelors in Electronics,Web Developer,Certified Scrum Master,False,False,True,True,False
+Alice Johnson,19,"C++, Embedded Systems",Bachelors in Business Administration,Data Scientist,Certified Scrum Master,False,False,True,True,False
+Jane Smith,13,"C++, Embedded Systems",MBA in HR,Embedded Systems Engineer,Cisco Certified Network Associate,True,True,True,True,True
+Alice Johnson,18,"Python, SQL, Machine Learning",MBA in HR,Data Scientist,Google Data Engineer,False,True,True,False,False
+Jane Smith,10,"JavaScript, React, Node.js",MBA in HR,Data Scientist,Cisco Certified Network Associate,False,True,True,False,True
+Jane Smith,17,"HR Management, Payroll",Bachelors in Business Administration,Embedded Systems Engineer,AWS Certified Solutions Architect,True,False,False,True,False
+Jane Smith,13,"JavaScript, React, Node.js",Bachelors in Computer Science,Software Engineer,Google Data Engineer,False,False,True,False,False
+Charlie Davis,19,"JavaScript, React, Node.js",Bachelors in Electronics,Data Scientist,AWS Certified Solutions Architect,False,False,False,False,False
+Bob Brown,6,"HR Management, Payroll",Bachelors in Electronics,Web Developer,Certified Scrum Master,True,False,True,True,False
+Bob Brown,15,"JavaScript, React, Node.js",Masters in Information Technology,Embedded Systems Engineer,SHRM Certified Professional,True,True,False,False,False
+John Doe,6,"JavaScript, React, Node.js",Masters in Information Technology,Web Developer,Cisco Certified Network Associate,False,True,True,False,False
